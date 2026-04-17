@@ -41,3 +41,8 @@ Two-view interactive chart. Sector returns for 2023 and 30-day rolling volatilit
 - Data wrangling: resampling, pct_change, rolling statistics (Weeks 6–9)
 - Version control with GitHub (Week 10)
 - Interactive web publishing via GitHub Pages (self-exploration)
+
+## Data Sources
+
+- Apple (AAPL) and Tesla (TSLA) stock prices: Yahoo Finance via [yfinance](https://pypi.org/project/yfinance/)
+- S&P 500 sector returns (2023): Publicly reported annual index performance data
