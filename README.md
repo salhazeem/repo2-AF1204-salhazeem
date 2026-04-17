@@ -16,16 +16,28 @@ Personal portfolio webpage for the AF1204 Data Literacy module.
 ## How to run
 
 ```bash
-pip install jupyter
+pip install jupyter yfinance pandas matplotlib numpy
 python -m jupyterlab portfolio.ipynb
 ```
 
-Run all cells — the notebook writes `docs/index.html` and opens a browser preview.
+Run all cells — the notebook downloads real stock data, generates 4 charts, and writes `docs/index.html`.
+
+## Projects
+
+### Project 1 — Stock Price Analysis: Apple vs Tesla (2020–2024)
+Real historical closing prices downloaded from Yahoo Finance using yfinance. Line chart comparing 5-year performance.
+
+### Project 2 — Monthly Return Comparison (2023)
+Month-by-month percentage returns calculated using pandas resample and pct_change. Shows volatility difference between Apple and Tesla.
+
+### Project 3 — S&P 500 Sector Returns and Rolling Volatility (Interactive)
+Two-view interactive chart. Sector returns for 2023 and 30-day rolling volatility calculated from real daily returns.
 
 ## Skills demonstrated
 
 - Python programming (Weeks 1–4)
-- Data visualisation
-- Version control with GitHub
-- Financial data interpretation
-- Web publishing with GitHub Pages (self-exploration)
+- Data visualisation with matplotlib and pandas (Weeks 1–4, 6)
+- Real financial data retrieval using yfinance (self-exploration)
+- Data wrangling: resampling, pct_change, rolling statistics (Weeks 6–9)
+- Version control with GitHub (Week 10)
+- Interactive web publishing via GitHub Pages (self-exploration)
